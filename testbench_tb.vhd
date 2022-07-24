@@ -43,8 +43,8 @@ begin
     end process;
 
   -- Stimulus process
-stim_proc: process
-begin        
+    stim_proc: process
+    begin        
     inp1 <= "001";
     wait for 21 ns; 
     inp1 <= "100";
